@@ -15,18 +15,29 @@ public:
     void printBoard()
     {
         system("cls");
+        cout << " _____ ___ ____ _____  _    ____ _____ ___  _____ " << endl;
+        cout << "|_   _|_ _/ ___|_   _|/ \\  / ___|_   _/ _ \\| ____|" << endl;
+        cout << "  | |  | | |     | | / _ \\| |     | || | | | |__|  " << endl;
+        cout << "  | |  | | |___  | |/ ___ \\ |____ | || |_| | |___  " << endl;
+        cout << "  |_| |__ \\____  | |_/_/   \\_____ | |\\ ___/|_____|" << endl<<endl;
+
+        cout<<"\t\t\t";
         cout << board[0][0] << "|" << board[0][1] << "|" << board[0][2] << endl;
+        cout<<"\t\t\t";
         cout << "-"
              << "|"
              << "-"
              << "|"
              << "-" << endl;
+        cout<<"\t\t\t";
         cout << board[1][0] << "|" << board[1][1] << "|" << board[1][2] << endl;
+        cout<<"\t\t\t";
         cout << "-"
              << "|"
              << "-"
              << "|"
              << "-" << endl;
+        cout<<"\t\t\t";
         cout << board[2][0] << "|" << board[2][1] << "|" << board[2][2] << endl;
     }
     void resetBoard()
